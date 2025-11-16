@@ -63,3 +63,6 @@ int main() {
 
 
 Блок схема
+<img width="910" height="2842" alt="11 лаба блок схема" src="https://github.com/user-attachments/assets/8d577611-6a0e-4667-808f-624cc4c2f0ad" />
+
+
