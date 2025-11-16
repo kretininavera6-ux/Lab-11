@@ -1,8 +1,5 @@
 # Lab-11
-Условие
-Вариант 10 
-
-
+###Условие вариант 10 
 <img width="698" height="53" alt="image" src="https://github.com/user-attachments/assets/544a3d5d-c711-49ca-9ec5-5805b7102234" />
 
 Описание программы
