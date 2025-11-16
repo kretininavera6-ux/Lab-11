@@ -66,6 +66,7 @@ int main() {
 
 
 
+<img width="910" height="2779" alt="лаба 11" src="https://github.com/user-attachments/assets/d9a9c9d7-39eb-4c45-a219-8f14209d7b08" />
 
 
 
