@@ -1,0 +1,22 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+int main() {
+    setlocale(LC_ALL, "rus");
+    int n, i, min_i = 0, sum = 0;
+    printf("Количество элементов массива: ");
+    scanf("%d", &n);
+    int* a = (int*)malloc(n * sizeof(int));
+    printf("Введите %d чисел:\n", n);
+    for (i = 0; i < n; i++)
+        scanf("%d", &a[i]);
+    for (i = 1; i < n; i++)
+        if (abs(a[i]) < abs(a[min_i]))
+            min_i = i;
+    for (i = min_i + 1; i < n; i++)
+        sum += a[i];
+    printf("Сумма после элемента с мин. модулем: %d\n", sum);
+    free(a);
+    return 0;
+}
